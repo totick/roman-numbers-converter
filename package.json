@@ -3,5 +3,8 @@
     "version": "1.0.0",
     "description": "Converter from integers to roman numerals",
     "author": "John Lundgren",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
 }
