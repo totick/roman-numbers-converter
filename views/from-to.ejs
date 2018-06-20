@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>>From to roman numerals</title>
+    </head>
+    <body>
+        <h1>From To Roman Numerals</h1>
+        <p>From: <%= RESULT.from %></p>
+        <p>To: <%= RESULT.to %></p>
+        <p><%= RESULT.values.length %></p>
+        <table border=1>
+            <tr>
+                <th>Integers</th>
+                <th>Roman numerals</th>
+            </tr>
+            <% for(let i = 0; i < RESULT.values.length; i++) { %>
+            <tr>
+                <td><%= RESULT.values[i].integer %></td>
+                <td><%= RESULT.values[i].roman %></td>
+            </tr>
+            <% } %>
+        </table>
+    </body>
+</html>
